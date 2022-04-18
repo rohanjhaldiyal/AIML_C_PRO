@@ -13,5 +13,5 @@ void main()
     printf("\nThe value of a-b-c is %d", a - b - c);
     printf("\nThe value of a*b*c is %d", a * b * c);
     printf("\nThe value of a/b/c is %d", a / b / c);
-    printf("\nThe value of a%b is %d", a % b);
+    printf("\nThe value of a%%b is %d", a % b);
 }
