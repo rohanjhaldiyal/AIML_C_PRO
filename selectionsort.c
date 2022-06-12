@@ -3,17 +3,17 @@
 void main()
 {
     int a[100], n, i, j, max, maxIndex;
-    printf("Input size of the array\n");
+    printf("Input size of the array: ");
     scanf("%d", &n);
-    printf("\nInput integer values in the array \n");
+    printf("Input integer values in the array: ");
     for (int i = 0; i < n; i++)
     {
         scanf("%d", &a[i]);
     }
-    printf("\nThe input array is\n");
+    printf("The input array is: ");
     for (i = 0; i < n; i++)
     {
-        printf("%d\n", a[i]);
+        printf("%d ", a[i]);
     }
     for (i = 0; i < n; i++)
     {
@@ -29,9 +29,9 @@ void main()
         a[maxIndex] = a[n - i - 1];
         a[n - i - 1] = max;
     }
-    printf("\nThe sorted array is\n");
+    printf("\nThe sorted array is: ");
     for (i = 0; i < n; i++)
     {
-        printf("%d\n", a[i]);
+        printf("%d ", a[i]);
     }
 }
